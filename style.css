@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+nav{
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgba(0,0,0,.5);
+    z-index: 10;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-link{
+    color: white !important;
+    border-bottom: 1px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+ 
+/* Home */
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    /* background:url(Purple Illustrated Mountain Desktop Wallpaper.png) */
+    background: #213e5a no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    padding-top: 12rem;
+    
+
+}
+
+
+.home img{
+height: 400px;
+width: 400px;
+border-radius: 50%;
+overflow: hidden;
+border: 15px solid#444;
+box-shadow: 5px 7px 25px rgba(0,0,0,.5);
+filter: drop-shadow(0px 30px 15px rgba(0,0,0,.4));
+}
+.hero-img img{
+    height: 50%;
+    width: 50%;
+    transition: 0.5s;
+}
+.hero-img img:hover{
+    transform: scale(1.5);
+    
+}
+
+.home-content{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.home-content h5 {
+    color: #e5e5e5;
+    font-size: 35px;
+    
+}
+.home-content h5 span {
+    color: #000;
+    font-size: 45px;
+    
+}
+
+.home-content h4 {
+    color: #fff;}
+
+.home-content h1 {
+    color: #e5e5e5;
+    font-size: 35px;
+    
+} 
+
+.home-content p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 10px;
+    
+}
+.home-content .home-sci i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+
+}
+.home-content .home-sci i:hover {
+    background: rgb(0, 183, 255);
+    color: #081b29;
+    box-shadow: 0 0 20px rgb(0, 183, 255);
+    transform: rotate(360deg);
+}
+@media(max-width:768px) {
+    .home {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .home-content {
+        padding-top: 40px 0;
+    }
+    .hero-img {
+        padding-top: 40px 0;
+    }
+}
+
+#about{
+    pass
+}
+/* .sub-btn{
+    background: #1f80e0;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.login-link{
+    color: #fff;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+} */
+
+/* about */
+
+/* #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #ff75a0;
+    background: #213e5a;
+}
+.h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    background: #557af5;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px 5px 12px rgba(0,0,0,.7);
+    margin-bottom: 3%;
+    margin-top: 8%;
+    transition: 1s;
+
+}
+.circle img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 30px 15px rgba(0,0,0,.4));
+}
+.circle:hover{
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.circle:hover .content{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    color: white;
+    width: 50%;
+    opacity: 1;
+    transition: 1s;
+}
+
+.circle .content{
+    opacity: 0;
+}
+
+@media screen and (max-width:576px){
+    .circle{
+        width: 400px;
+        height: 400px;
+        background: #453492;
+        position: relative;
+        border-radius: 50%;
+        box-shadow: 0px 5px 12px rgba(0,0,0,.7);
+        margin-bottom: 3%;
+        margin-top: 8%;
+        transition: 1s;
+    
+    }
+
+    .circle:hover{
+        width: 400px;
+        height: 800px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    .circle .content{
+        opacity: 0;
+    }
+    .circle:hover .content{
+        position: absolute;
+        top: 60%;
+        right: 0;
+        color: white;
+        width: 100%;
+        padding: 15px;
+        opacity: 1;
+        transition: 1s;
+    }
+} */
+
+    /* skills */
+
+#skills{
+    padding-top: 5%;
+    background: #e5e5e5;
+}    
+
+#skills .container{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+}
+
+label{
+    font-size: 20px;
+    color: black;
+}
+
+.progress{
+    height: 30px !important;
+    box-shadow: 2px 4px 5px gray, -2px -4px 5px white;
+}
+    
+.progress:hover{
+    box-shadow: 2px 4px 5px white, -2px -4px 5px gray;
+
+}
+/*project new*/
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
+}
+.main-text h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+.main-text h2 span {
+    color: rgb(38, 0, 255);
+
+}
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),gray);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.layer h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer p{
+    color: #000;
+    font-size: 20px;
+    line-height: 1.0;
+}
+.layer i{
+    color: #ff004f;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50;
+}
+
+.row:hover img{
+    transform: scale(1.1);
+}
+.row:hover .layer{
+    height: 100%;
+}
+
+/* contact */
+
+
+
+.contact-text{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #213e5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,.4);
+    overflow: hidden;
+    grid-template-columns: repeat(2,  1fr);
+    display: grid;
+    z-index: 1000;
+
+}
+
+.contact{
+    background: #0a518b67;
+}
+
+.submit-form{
+    background: #213e5a;
+
+}
+
+.first-text{
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.image{
+    height: 380px;
+    width: 380px;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+}
+
+ ul li{
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+ i{
+    background: #55a8f5;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+    color: #fff;
+}
+.social-media i:hover{
+    background: #fff;
+    color: #55a8f5;
+
+}
+
+.social-media a{
+    text-decoration: none;
+}
+
+.third-text{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+form{
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.input-box{
+    height: 40px;
+    width: 70%;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid#fff;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    columns: #fff;
+    font-size: 16px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s;
+}
+
+.input-box .input:focus ~ label,
+.input-box .input:valid ~ label{
+    top: -1px;
+    left: 10px;
+    background: #213e5a;
+    /* background: #fff; */
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+}
+textarea.input{
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+    padding-top: 10px;
+}
+ .btn{
+    position: relative;
+    top: 100px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    color: #213e5a;
+    cursor: pointer;
+    font-weight: 500; 
+}
