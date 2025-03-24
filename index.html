@@ -3,236 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Abinaya S - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-  <!-- Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link "  href="#homepage">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-
-    </div>
-    <!--  
-    <div class="right-container">
-      <input type="text" class="search-box" placeholder="search">
-      <button class="sub-btn">subscribe</button>
-      <a href="#" class="login-link">login</a>
-</div>-->
-  </nav>
-
-  <!-- Home
-  <section id="home">
-    <p class="text-center">Hello, I am <span>Abinaya S</span></p>
-    <p class="text-center">A <span>Frontend Developer!</span></p>
-
-  </section> -->
-
-<section id="homepage">
-  <div class="home">
-    <div class="hero-img">
-      <img src="me.jpg" alt="profile pic">
-    </div>
-    <div class="home-content">
-      <h5>Hai, I'm  <br><span>Abinaya S</span></h5>
-      <h4>A Frontend Developer !</h4>
-      <p >My journey in the world of engineering has led me to<br> specialize in frontend development, Presently doing Frontend program at Spotknack.</p>
-       <div class="home-sci">
-            <a href="https://www.linkedin.com/in/abinaya-moorthy-"><i class='bx bxl-linkedin-square'></i></a>
-          <a href="https://github.com/abinaya2601"><i class='bx bxl-github' ></i></a>
-          <a href="abinayamoorthy2601@gmail.com"></a><i class='bx bxl-gmail'></i>
-           </div>
-    </div>
-  </div></section>
-
-
-  <!-- About -->
-  <!-- <section id="about">
-    <div class="circle">
-      <img src="me.jpg">
-      <div class="content">
-        <h1>ABOUT ME</h1>
-        <p>Hello! I'm Abinaya S, Currently pursuing my Bachelors degree in Information technology. 
-           My journey in the world of engineering has led me to specialize in frontend development, Presently doing Frontend program at Spotknack. 
-           Trying to seek opportunities in many ways.</p>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- <section id="about">
-    <p class="section-p1">Get to know More</p>
-    <h1 class="sub-title">About<span>Me</span></h1>
-    <div class="section-container">
-      <img src="me.jpg" alt="profile pic" class="about-pic"/>
-    </div>
-    <div class="details-container">
-      <img src="edu.jpeg" alt="education" class="icon"/>
-      <h3>Education</h3>
-      <p>Bachelors Degree<br>Information Technology</p>
-    </div>
-    <div>
-      <div class="about-text">
-        <p></p>
-      </div>
-    </div>
-  </section> -->
-
-  <div id="about">
-    <div class="abt-container">
-      <div class="row">
-        <div class="about-col-1"></div>
-        <h1>About Me</h1>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skills -->
-
-  <section id="skills">
-    <h1 class="text-center">My Skills</h1>
-    <div class="container">
-      <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
-        <div class="col-lg-6 col-12">
-          <label>HTML</label>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
-          </div>
-        </div> 
-          <div class="col-lg-6 col-12 pt-lg-0 pt-3">
-            <label>CSS</label>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%;">80%</div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                Abinaya S <span style="color: #1f80e0;">| Portfolio</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
-      </div>
+    </nav>
 
-      <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
-        <div class="col-lg-6 col-12 pt-lg-0 pt-3">
-          <label>Java Script</label>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 65%;">65%</div>
-          </div>
-        </div> 
-          <div class="col-lg-6 col-12 pt-lg-0 pt-3">
-            <label>Bootstrap</label>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm <span class="highlight">Abinaya S</span>, an aspiring software developer.</p>
+            <a href="ABINAYA S_Resume.pdf" download class="btn">Download My Resume</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abinaya-moorthy-/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Abinaya2601" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:abinayamoorthy2601@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
-      </div>
+        <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+    </section>
+    
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Abinaya S, an aspiring software developer currently pursuing a degree in Information Technology. I have a solid foundation in Java, Data Structures, and Web Development, and I am passionate about leveraging technology to solve real-world challenges.
+               I am a quick learner, an effective team player, and committed to enhancing my skills continuously. My objective is to secure a position where I can apply my knowledge, contribute meaningfully to projects.
+            </p>
+        </div>
+    </section>
 
-      <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
-        <div class="col-lg-6 col-12 pt-lg-0 pt-3">
-          <label>Python</label>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
-          </div>
-        </div> 
-          <div class="col-lg-6 col-12 pt-lg-0 pt-3">
-            <label>C</label>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%;">80%</div>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+          
+            <div class="skill-bar">
+                <label>HTML & CSS</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <label>Java</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <label>C</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <label>Python</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
             </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-<!-- project -->
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="card">
+                    <img src="tuit.png" alt="Project 1">
+                    <h3>E-Tuition</h3>
+                    <p> A user-friendly e-learning platform designed using HTML and CSS to provide a simple and intuitive interface.</p>
+                    <a href="https://poetic-chebakia-3aeb3e.netlify.app/" target="_blank" class="btn">Visit Project</a>
+                </div>
+                <div class="card">
+                    <img src="dis.png" alt="Project 2">
+                    <h3>Disney Plus Clone</h3>
+                    <p>A responsive and interactive Disney Plus clone built using HTML, CSS, and JavaScript. It replicates the UI of the original platform with smooth navigation.
+                    </p>
+                    <a href="https://luxury-otter-71d763.netlify.app/" target="_blank" class="btn">Visit Project</a>
+                </div>
+                <div class="card">
+                    <img src="periodic.jpg" alt="Project 3">
+                    <h3>Periodic Navigator</h3>
+                    <p>An interactive periodic table web application that helps chemistry enthusiasts explore elements efficiently.</p>
+                    <a href="https://periodicnavigator.netlify.app/" target="_blank" class="btn">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-  <div id="portfolio" id="project">
-    <div class="main-text" id="project">
-      <h2>Latest<span>Project</span></h2>
-      <div class="portfolio-content">
-        <div class="row">
-          <img src="tuit.png">
-          <div class="layer">
-            <h5>E-Tuition</h5>
-            <p>Teaching | Practical | Training</p>
-              <a href="https://poetic-chebakia-3aeb3e.netlify.app/"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
-          </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+                <input type="email" class="form-control" placeholder="Your Email" required>
+                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
         </div>
-        <div class="row">
-          <img src="dis.png">
-          <div class="layer">
-            <h5>Disney plus</h5>
-            <p>Disney+ is a standalone service for streaming content on demand</p>
-            <a href="https://luxury-otter-71d763.netlify.app/"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- contact -->
-
-<section class="contact" id="contact">
-<div class="contact-text">
-  <div class="item">
-    <div class="contact">
-      <div class="first-text">Let's work Together</div>
-      <img src="images.jpeg" alt="" class="image">
-      <div class="social-links">
-        <span class="second-text"></span>
-        <ul class="social-media">
-          <li><a href="https://www.linkedin.com/in/abinaya-moorthy-"><i class='bx bxl-linkedin-square'></i></a></li>
-          <li><a href="https://github.com/abinaya2601"><i class='bx bxl-github' ></i></a></li>
-          <li><a href="abinayamoorthy2601@gmail.com"></a><i class='bx bxl-gmail'></i></li>
-        </ul>
-      </div>
-    </div>
-    <div class="submit-form">
-      <h4 class="third-text text">Contact Me</h4>
-      <form action="">
-        <div class="input-box">
-          <input type="text" class="input" required>
-          <label for="">Name</label>
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/abinaya-moorthy-/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Abinaya2601" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:abinayamoorthy2601@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
-        <div class="input-box">
-          <input type="email" class="input" required>
-          <label for="">Email</label>
-        </div>
-        <div class="input-box">
-          <input type="tel" class="input" required>
-          <label for="">Phone</label>
-        </div>
-        <div class="input-box" >
-          <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
-          <label for="">Message</label>
-        </div>
-        <input type="submit"  class="btn" value="Submit">
-      </form>
-    </div>
-  </div>
-</div></section>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    </footer>
 </body>
 </html>
